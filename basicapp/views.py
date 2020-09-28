@@ -9,7 +9,7 @@ def form_name_view(request):
     if request.method == 'POST':
         form = forms.formName(request.POST)
         if form.is_valid():
-            jModel = JournalModel()
+            jModel =  JournalModel()
             jModel.title = form.cleaned_data['title']
             jModel.description = form.cleaned_data['description']
             jModel.author = form.cleaned_data['author']
