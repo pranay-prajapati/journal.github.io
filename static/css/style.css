@@ -1,0 +1,14 @@
+body{
+    background-image: url("../img/d.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1500px 1000px;
+}
+
+table{
+    margin-top:10px;
+}
+
+tr{
+    background-color: white;
+}
